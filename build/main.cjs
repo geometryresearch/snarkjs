@@ -4329,7 +4329,7 @@ async function newZKey(r1csName, ptauName, zkeyName, logger) {
         }
 
 //         for (let s = 0; s <= nPublic ; s++) {
-        for (let s = 0; s <= 1 ; s++) {
+        for (let s = 0; s < 1 ; s++) {
             const l1t = TAU_G1;
             const l1 = sG1*(r1cs.nConstraints + s);
             const l2t = BETATAU_G1;
